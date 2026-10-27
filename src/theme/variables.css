@@ -1,0 +1,35 @@
+/* For information on how to create your own theme, please refer to:
+http://ionicframework.com/docs/theming/ */
+
+/* TEMA SOFT BLUE - BERINGIN SMART */
+
+:root {
+  --ion-color-primary: #6B9FE8;
+  --ion-color-primary-rgb: 107, 159, 232;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #5e8ccd;
+  --ion-color-primary-tint: #7aabea;
+}
+
+/* Background */
+ion-content {
+  --background: #F2F7FF;
+}
+
+/* Header */
+ion-toolbar {
+  --background: #A9C9F0;
+  --color: #284D85;
+}
+
+/* Kartu */
+ion-card {
+  --background: #FFFFFF;
+}
+
+/* Tombol utama */
+ion-button[color="primary"] {
+  --background: #6B9FE8;
+  --color: #FFFFFF;
+}
