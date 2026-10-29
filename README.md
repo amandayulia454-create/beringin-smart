@@ -59,3 +59,19 @@ Dokumentasi pengujian sistem meliputi:
 Repository ini berisi kode sumber frontend, backend, serta dokumentasi tampilan dan pengujian aplikasi Beringin Smart.
 
 Seluruh screenshot dokumentasi disimpan dalam folder `screenshots`.
+
+## 10. Pengujian CRUD Update (Edit Laporan)
+
+Pengujian ini dilakukan untuk memastikan petugas dapat mengubah data laporan yang sudah dibuat. Setelah perubahan disimpan, data laporan berhasil diperbarui.
+
+**Hasil Pengujian: Berhasil**
+
+![Pengujian Update](screenshots/10_uji_crud_update_berhasil.jpeg)
+
+## 11. Pengujian CRUD Delete (Hapus Laporan)
+
+Pengujian ini dilakukan untuk memastikan petugas dapat menghapus laporan melalui tombol Hapus Laporan. Setelah dikonfirmasi, laporan berhasil dihapus dan tidak muncul lagi dalam daftar laporan.
+
+**Hasil Pengujian: Berhasil**
+
+![Pengujian Delete](screenshots/11_uji_crud_delete_berhasil.jpeg)
