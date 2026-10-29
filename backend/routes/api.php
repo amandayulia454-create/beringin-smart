@@ -14,13 +14,25 @@ Route::get('/laporan', [LaporanController::class, 'index']);
 // Route yang membutuhkan login
 Route::middleware('auth:sanctum')->group(function () {
 
-    // Mengirim laporan
+    // Menambahkan laporan
     Route::post('/laporan', [LaporanController::class, 'store']);
 
     // Mengubah status laporan
     Route::patch('/laporan/{id}/status', [
         LaporanController::class,
         'updateStatus'
+    ]);
+
+    // Mengedit laporan
+    Route::put('/laporan/{id}', [
+        LaporanController::class,
+        'update'
+    ]);
+
+    // Menghapus laporan
+    Route::delete('/laporan/{id}', [
+        LaporanController::class,
+        'destroy'
     ]);
 
 });
